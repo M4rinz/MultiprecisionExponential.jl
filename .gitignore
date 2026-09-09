@@ -1,0 +1,4 @@
+*.code-workspace
+/Manifest*.toml
+/docs/Manifest*.toml
+/docs/build/
