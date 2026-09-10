@@ -1,10 +1,19 @@
 name = "MultiprecisionExponential"
 uuid = "94d3a556-5218-437b-92f8-5c9e05288610"
-authors = ["Andrea Marino <134485532+M4rinz@users.noreply.github.com> and contributors"]
 version = "1.0.0-DEV"
+authors = ["Andrea Marino <134485532+M4rinz@users.noreply.github.com> and contributors"]
+
+[deps]
+GenericSchur = "c145ed77-6b09-5dd9-b285-bf645a82121e"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LinearMaps = "7a12625a-238d-50fd-b39a-03d52299707e"
+MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
 
 [compat]
-julia = "1.10"
+GenericSchur = "0.5.8"
+LinearMaps = "3.11.4"
+MatrixEquations = "2.6.5"
+julia = "1.12"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
