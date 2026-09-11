@@ -46,7 +46,9 @@ Computes the exponential of ``A`` in arbitrary precision, using the algorithm de
 
 # Example
 ```jldoctest
-julia> using LinearAlgebra
+julia> using LinearAlgebra, Random
+
+julia> Random.seed!(42);
 
 julia> A = [big(π)im 0; 0 big(π)im]
 2×2 Matrix{Complex{BigFloat}}:
