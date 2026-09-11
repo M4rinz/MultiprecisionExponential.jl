@@ -1,6 +1,6 @@
 name = "MultiprecisionExponential"
 uuid = "94d3a556-5218-437b-92f8-5c9e05288610"
-version = "1.0.0-DEV"
+version = "0.1.0"
 authors = ["Andrea Marino <134485532+M4rinz@users.noreply.github.com> and contributors"]
 
 [deps]
