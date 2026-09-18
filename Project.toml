@@ -11,6 +11,7 @@ MatrixEquations = "99c1a7ee-ab34-5fd5-8076-27c950a045f4"
 
 [compat]
 GenericSchur = "0.5.8"
+LinearAlgebra = "1.12"
 LinearMaps = "3.11.4"
 MatrixEquations = "2.6.5"
 julia = "1.12"
