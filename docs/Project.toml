@@ -4,3 +4,4 @@ MultiprecisionExponential = "94d3a556-5218-437b-92f8-5c9e05288610"
 
 [compat]
 Documenter = "1.19.0"
+MultiprecisionExponential = "0.1.0"
